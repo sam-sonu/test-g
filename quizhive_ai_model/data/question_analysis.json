@@ -1,0 +1,37 @@
+{
+  "total_questions": 3,
+  "topics": {
+    "Sample Topic": 1,
+    "Another Topic": 1,
+    "Advanced Topic": 1
+  },
+  "levels": {
+    "beginner": 1,
+    "intermediate": 1,
+    "advanced": 1
+  },
+  "core_types": {
+    "baseline": 2,
+    "variable": 1
+  },
+  "question_patterns": {
+    "starters": {
+      "This is an": 2,
+      "Sample advanced level": 1
+    },
+    "avg_length": 5.333333333333333,
+    "length_distribution": {
+      "6": 2,
+      "4": 1
+    }
+  },
+  "option_patterns": {
+    "counts": {
+      "4": 3
+    },
+    "avg_count": 4.0
+  },
+  "explanation_patterns": {
+    "avg_length": 7.0
+  }
+}

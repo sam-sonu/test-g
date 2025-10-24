@@ -1,0 +1,4 @@
+id,core_type,level,topic,question,options,correct,explanation
+SAMPLE_Q1,baseline,beginner,Sample Topic,This is an example baseline question?,"{'A': 'Incorrect option', 'B': 'Correct option', 'C': 'Another incorrect option', 'D': 'Final incorrect option'}",B,This field explains why option B is the correct answer
+SAMPLE_Q2,variable,intermediate,Another Topic,This is an example variable question?,"{'A': 'First option', 'B': 'Second option', 'C': 'Right answer', 'D': 'Fourth option'}",C,Explanation for why C is correct
+SAMPLE_Q3,baseline,advanced,Advanced Topic,Sample advanced level question?,"{'A': 'Option 1', 'B': 'Correct choice', 'C': 'Option 3', 'D': 'Option 4'}",B,Detailed explanation for advanced question

@@ -1,0 +1,36 @@
+# Core dependencies for AI model (CPU-optimized)
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Transformers and NLP
+transformers>=4.35.0
+accelerate>=0.24.0
+sentencepiece>=0.1.99
+protobuf>=4.21.0
+tokenizers>=0.14.0
+
+# FastAPI for model serving
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+datasets>=2.14.0
+
+# Utilities
+pydantic>=2.4.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+aiofiles>=23.2.0
+
+# Development and testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.9.0
+flake8>=6.1.0
+
+# Optional: For quantization (memory optimization)
+bitsandbytes>=0.41.0

@@ -1,0 +1,66 @@
+{
+  "by_topic": {},
+  "by_level": {},
+  "by_core_type": {
+    "baseline": {
+      "question_count": 2,
+      "question_patterns": [
+        "This is an example baseline question?",
+        "Sample advanced level question?"
+      ],
+      "option_patterns": [
+        [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      ],
+      "sample_questions": [
+        {
+          "id": "SAMPLE_Q1",
+          "core_type": "baseline",
+          "level": "beginner",
+          "topic": "Sample Topic",
+          "question": "This is an example baseline question?",
+          "options": {
+            "A": "Incorrect option",
+            "B": "Correct option",
+            "C": "Another incorrect option",
+            "D": "Final incorrect option"
+          },
+          "correct": "B",
+          "explanation": "This field explains why option B is the correct answer"
+        },
+        {
+          "id": "SAMPLE_Q3",
+          "core_type": "baseline",
+          "level": "advanced",
+          "topic": "Advanced Topic",
+          "question": "Sample advanced level question?",
+          "options": {
+            "A": "Option 1",
+            "B": "Correct choice",
+            "C": "Option 3",
+            "D": "Option 4"
+          },
+          "correct": "B",
+          "explanation": "Detailed explanation for advanced question"
+        }
+      ]
+    }
+  },
+  "question_structures": [
+    {
+      "type": "other",
+      "count": 3,
+      "avg_length": 5.333333333333333,
+      "has_examples_ratio": 0.6666666666666666,
+      "samples": [
+        "This is an example baseline question?",
+        "This is an example variable question?",
+        "Sample advanced level question?"
+      ]
+    }
+  ]
+}
